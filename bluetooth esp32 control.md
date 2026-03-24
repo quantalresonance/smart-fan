@@ -195,13 +195,13 @@ void setup() {
     String body = server.arg("plain");
     Serial.println(body);
 
-    if (body.indexOf("FAN") != -1) {
+  if (body.indexOf("FAN") != -1) {
       blinkMode = true;
     } else {
       blinkMode = false;
     }
 
-    server.send(200, "text/plain", "OK");
+  server.send(200, "text/plain", "OK");
   });
 
   server.on("/color", HTTP_POST, []() {
