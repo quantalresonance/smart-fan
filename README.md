@@ -1,4 +1,4 @@
-# smart-fan bluetooth remote html
+# dsmart-fan bluetooth remote html
 <!DOCTYPE html>
 <html lang="en">
 <head>
